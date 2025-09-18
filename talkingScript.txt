@@ -2,17 +2,17 @@ Welcome to My Smart Side! Even if you don't know the first thing about writing a
 
 // What is Java?
 Java is a statically-typed compiled class-based object-oriented programming language. Java is what? Don't worry; I will explain each part of that sentence.
-* Statically-typed: This means that fields, variables, parameters, returns, and arrays have a pre-determined type that does not change. This differs from dynamic typing, which is what JavaScript and Python have, where the types are in the values, and fields, variables, parameters, returns, and arrays can have different types.
-* Compiled: This means that the human-readable code is converted into machine code. In this case, a Java file is compiled to a Class file that is run on the Java Virtual Machine. This differs from interpreted languages such as Python where an interpreter goes line-by-line or statement-by-statement, parsing it, and running it.
+* Statically-typed: This means that fields, variables, parameters, returns, and arrays have pre-determined types that do not change. This differs from dynamic typing, which is what JavaScript and Python have, where the types are in the values, and fields, variables, parameters, returns, and arrays can have different types.
+* Compiled: This means that the human-readable code is converted into machine-runnable code. In this case, a Java file is compiled into a Class file that is run on the Java Virtual Machine. This differs from interpreted languages such as Python, where an interpreter goes line-by-line or statement-by-statement, parsing it and running it.
 * Class-based: The easiest analogy to describe classes is that they are blueprints. They are not houses, but they can be used when building a house. This differs from prototypes, which is what JavaScript has. Yes, you can create classes in JavaScript, but they just make prototypes and constructor functions. This would be like having a house as a prototype and building another house similar to it.
 * Object-oriented: An object is constructed somewhere in memory, and it can be accessed by passing references to it. Behind the scenes, a reference is the address or memory location of the object, but the beauty of object-oriented programming is that you don't have to know where in memory an object is. This differs from a primitive type where the value is used as itself rather than referencing an object.
 
 // Comments
-The easiest thing to understand might be comments. These are ignored by the compiler and can be used to explain something to a person who is reading your code. In Java, there are two ways to make a comment. Two slashes until the end of the line or the end of the file is an end-of-line comment. Slash star until star slash is a multi-line comment, but it could be just one line, and it could be in the middle of a line. I don't recommend putting a comment in the middle of a line because that would make your code harder to read, which is ironic for a comment allowing somebody to understand your code.
+The easiest thing to understand might be comments. These are ignored by the compiler and can be used to explain something to a person who is reading your code. In Java, there are two ways to make a comment. Two slashes until the end of the line or file is an end-of-line comment. Slash star until star slash is a multi-line comment, but it could be just one line, and it could be in the middle of a line. I don't recommend putting a comment in the middle of a line because that would make your code harder to read, which is ironic for a comment allowing somebody to understand your code.
 
 // Primitive Types
 Java has a few primitive types in addition to its objects. Primitive types are simple values with defined sizes.
-boolean: This is the simplest type. It only has two values: false and true. // TODO...
+boolean: This is the simplest type. It only has two values: false and true. It is used in `if` statements, loops, logic, and comparisons.
 char: // TODO...
 byte: // TODO...
 // TODO...
